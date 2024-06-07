@@ -86,4 +86,41 @@ p {
     height: 125px;
     border-radius: 10px;
     border: 2px solid blue;
+    
+}
+
+.box-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    height: 150px;
+}
+
+.text-box {
+    display: flex;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.quote-segment {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote>p {
+    width: 700px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.signature {
+    width: 700px;
+    align-self: end;
+    font-weight: bold;
 }
