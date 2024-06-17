@@ -24,7 +24,7 @@ body {
     justify-content: space-around;
 }
 
-.sign-up {
+.sign-up1 {
     background-color: #3882f6;
     border-radius: 8px;
     color: white;
@@ -123,4 +123,45 @@ p {
     width: 700px;
     align-self: end;
     font-weight: bold;
+}
+
+.call-action {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up2 {
+    display: flex;
+    width: 1000px;
+    height: 125px;
+    padding: 20px 40px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 20px;
+}
+
+.sign-up2>p {
+    font-size: 20px;
+}
+
+.sign-up2>button {
+    padding: 5px 25px;
+    border-radius: 5px;
+    border-color: white;
+    background-color:#3882f6 ;
+    color: white;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    height: 50px;
+    color: white;
 }
